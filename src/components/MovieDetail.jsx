@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 export default function MovieDetail() {
     const { id } = useParams();
-    const [movie, setmovie] = useState(null);
+    const [movie, setMovie] = useState(null);
 
     useEffect(() => {
         async function getMovieDetails() {
